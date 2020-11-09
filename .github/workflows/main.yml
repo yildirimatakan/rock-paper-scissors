@@ -28,8 +28,7 @@ jobs:
 
       - name: Step 4 - List the environment variables
         run: env
-          
-   build-on-windows:
+  build-on-windows:
     # The type of runner that the job will run on
     runs-on: windows-latest
 
